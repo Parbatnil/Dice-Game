@@ -3,7 +3,7 @@ import StartGame from "./Components/StartGame";
 import GamePlay from "./Components/GamePlay";
 
 const App = () => {
-  const [isgameStarted, setIsGameStarted] = useState(true);
+  const [isgameStarted, setIsGameStarted] = useState(false);
   const toggleGampley = () => {
     setIsGameStarted((prev) => !prev);
   };
