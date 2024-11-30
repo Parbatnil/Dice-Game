@@ -34,7 +34,7 @@ const NumberSelector = ({
 
       {/* Label */}
       <h1 className="text-center md:text-right font-semibold text-lg md:text-2xl mx-4">
-        Select Number
+        Select any Number
       </h1>
     </div>
   );
